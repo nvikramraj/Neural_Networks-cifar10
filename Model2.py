@@ -72,7 +72,6 @@ model.double()
 
 
 training_data = np.load("training_data2.npy",allow_pickle=True) # loading data set
-test_data = np.load("test_data2.npy",allow_pickle=True) # loading data set
 
 X = torch.Tensor([i[0] for i in training_data])
 y = torch.tensor([np.eye(10)[i[1]] for i in training_data])
