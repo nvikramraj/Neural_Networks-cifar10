@@ -20,7 +20,7 @@ Testing accuracy :
 test_model1.py
 test_model2.py
 
-My website : https://nvikramraj.github.io/
+My website : https://nvikramraj.github.io/cifar10/
 
 Result :
 
